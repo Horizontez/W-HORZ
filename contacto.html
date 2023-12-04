@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Horizontez</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo de Horizontez">
+    <h1>Horizontez</h1>
+    <p><span class="header-tagline">Conectamos Sueños con Realidades.</span></p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="ahorro.html">Ahorro para el Retiro</a></li>
+        <li><a href="hipotecarios.html">Créditos Hipotecarios</a></li>
+        <li><a href="fiscal.html">Asesoría Fiscal</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+<section class="section-content">
+    <h2>Contacto</h2>
+    <p>Estamos emocionados por la posibilidad de ayudarte a alcanzar tus metas financieras. Si tienes preguntas, inquietudes o simplemente deseas comenzar tu viaje hacia un futuro financiero más seguro, no dudes en ponerte en contacto con nosotros.</p>
+
+    <!-- Formulario de contacto -->
+    <form id="contactForm" onsubmit="event.preventDefault(); enviarFormulario();">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+
+        <!-- Cambiar type="button" a type="submit" en el botón del formulario -->
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Mensajes de éxito o error -->
+    <div id="resultado"></div>
+
+    <!-- Información de contacto -->
+    <div class="contact-info">
+        <h3>Ponte en Contacto con Nosotros</h3>
+        <p>Si prefieres, puedes llamarnos o enviarnos un correo electrónico:</p>
+        <p><strong>Teléfono:</strong> +52 951 171 1541</p>
+        <p><strong>Correo Electrónico:</strong> contacto@horizontez.com</p>
+    </div>
+</section>
+
+<!-- Más secciones y contenido... -->
+
+<footer>
+    <p>&copy; 2023 Horizontez. Todos los derechos reservados.</p>
+</footer>
+
+<!-- Incluye el archivo JavaScript -->
+<script src="contacto.js"></script>
+
+</body>
+</html>
+
