@@ -19,9 +19,8 @@ header {
 
 /* Estilo específico para el logo dentro del encabezado */
 header img {
-    max-width: 100%;
+    max-width: 50%; /* Ajusta el tamaño al 50% */
     height: auto;
-    width: 150px; /* Ajusta el tamaño según tus preferencias */
     margin: 0; /* Elimina cualquier margen predeterminado del logo */
 }
 
@@ -68,7 +67,7 @@ footer {
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%; /* Ajusta el tamaño al 50% */
     height: auto;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -100,8 +99,9 @@ section:nth-child(3) p:last-child {
 }
 
 .whatsapp-link img {
-    width: 40px; /* Ajusta el ancho según tus preferencias */
-    height: 40px; /* Ajusta la altura según tus preferencias */
+    width: 30px; /* Ajusta el ancho según tus preferencias */
+    height: auto; /* Mantén la proporción original de la imagen */
     border-radius: 50%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
+
